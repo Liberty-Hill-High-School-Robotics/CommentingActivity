@@ -1,3 +1,8 @@
+
+//There is an error on line 30, add a comment for how you found it.
+//There is an error on line 41, add a comment for how you found it.
+//There are two errors on line 71, add a comment for how you found it.
+
 package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
@@ -22,7 +27,7 @@ public class Drive extends SubsystemBase {
     private DifferentialDrive driveMain;
     private WPI_VictorSPX victorSPXL;
     private WPI_VictorSPX victorSPXR;
-    private AnalogGyro gyro;
+    private AnalogGyro gyrue;
 
     public Boolean PreciseMode;
     
@@ -33,7 +38,7 @@ public class Drive extends SubsystemBase {
     private int counter;
     
 
-    public Drive() {
+    public Drive(1) {
         talonSRXR = new WPI_TalonSRX(4);
         talonSRXR.configFactoryDefault();
         talonSRXR.setInverted(true); 
@@ -63,7 +68,7 @@ public class Drive extends SubsystemBase {
         driveMain.setMaxOutput(1.0);
 
         gyro = new AnalogGyro(0);
-        addChild("gyro",gyro);
+        addChild("gyue",gyrue);
         gyro.setSensitivity(0.007);
         setNormalMode();
     }

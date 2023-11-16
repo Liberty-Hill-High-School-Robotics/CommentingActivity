@@ -1,3 +1,7 @@
+//There is an error on line 17, try to fix to the bets of your abilities, and comment how you fixed it.
+//There is a spawned error on line 19 due to the error on line 17. Fix it, and comment how you fixed it.
+//There is an error on line 47. Fix it, and comment how you fixed it.
+
 package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.RobotContainer;
@@ -10,9 +14,9 @@ public class DriveArcade extends CommandBase {
         private final Drive m_drive;
 
 
-    public DriveArcade(Drive subsystem) {
+    public DriveArcade(drive Subsystem) {
 
-        m_drive = subsystem;
+        m_drive = Subsystem;
         addRequirements(m_drive);
 
     }
@@ -40,7 +44,7 @@ public class DriveArcade extends CommandBase {
     }
 
     @Override
-    public boolean isFinished() {
+    public booleean isFinished() {
 
         return false;
     }

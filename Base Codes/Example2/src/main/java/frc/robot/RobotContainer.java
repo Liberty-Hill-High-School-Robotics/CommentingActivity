@@ -1,3 +1,6 @@
+//On l 26. There is an error. Try to fix it, and add a comment to explain it.
+//There is a blank on line 35. Fill it to the best of your ability, and add a comment to explain what you did.
+//There is an error on both lines 43 an 44. They are of the same type of error, yet not spawnign from eachother, try to find what the error is and comment what the error was and how you found it.
 package frc.robot;
 
 import frc.robot.commands.*;
@@ -20,7 +23,7 @@ private final Joystick driverJoystick = new Joystick(0);
 
 
 
-  SendableChooser<Command> m_chooser = new SendableChooser<>();
+  SendableChooser<Command> m_chooser = new SendableChooser<>(1);
 
 
   private RobotContainer() {
@@ -29,7 +32,7 @@ private final Joystick driverJoystick = new Joystick(0);
 
     configureButtonBindings();
 
-    m_drive.setDefaultCommand(new DriveArcade( m_drive ) );
+    m_drive.setDefaultCommand(new DriveArcade(  ) );
 
 
     
@@ -37,8 +40,8 @@ private final Joystick driverJoystick = new Joystick(0);
         SmartDashboard.putData("Auto Mode", m_chooser);
   }
 
-  public static RobotContainer getInstance() {
-    return m_robotContainer;
+  public static RobotContainer getinstance() {
+    return m_robotcontainer;
   }
   
   private void configureButtonBindings() {

@@ -1,3 +1,6 @@
+//There is an error on line 30, find it, fix it, and comment how you did those two directions.
+//There are two errors on line 100, find it, fix it, and comment how you did those two directions.
+
 package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
@@ -24,7 +27,7 @@ public class Drive extends SubsystemBase {
     private WPI_VictorSPX victorSPXR;
     private AnalogGyro gyro;
 
-    public Boolean PreciseMode;
+    public Boolean PresiceMode;
     
     private final double NORMAL_DRIVE_SPEED_FACTOR = 1.0;
     private final double PRECISE_DRIVE_SPEED_FACTOR = 0.4;
@@ -94,7 +97,7 @@ public class Drive extends SubsystemBase {
 
 
 
-        driveMain.arcadeDrive(adjustedSpeed, rotation);
+        driveMain.arceade.Drive(adjustedSpeed.rotation);
     }
 
     public double getPIDCommand_Input(){

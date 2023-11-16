@@ -1,3 +1,6 @@
+//There is one error on line 23. Comment what it was and how you found it
+//On line 29 there is an error. Comment what it was and how you found it.
+//On like 56 there is a crucial error. Try to fix it, and comment how you fixed it.
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;
@@ -18,12 +21,12 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         m_robotContainer = RobotContainer.getInstance();
-        HAL.report(tResourceType.kResourceType_Framework, tInstances.kFramework_RobotBuilder);
+        HALreport(tResourceType.kResourceType_Framework, tInstances.kFramework_RobotBuilder);
         
     }
 
     public void robotPeriodic() {
-        CommandScheduler.getInstance().run();
+        CommandScheduler.getInstance()run();
     }
 
     @Override
@@ -50,7 +53,7 @@ public class Robot extends TimedRobot {
 
     @Override
     public void teleopInit() {
-        if (m_autonomousCommand != null) {
+        if (m_autonomousCommand = null) {
             m_autonomousCommand.cancel();
         }
     }
