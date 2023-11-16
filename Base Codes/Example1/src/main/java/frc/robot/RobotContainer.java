@@ -1,3 +1,6 @@
+//On line 21 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 35 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 44 there is a crucial error. Try to fix it, and comment how you fixed it.
 package frc.robot;
 
 import frc.robot.commands.*;
@@ -15,7 +18,7 @@ private static RobotContainer m_robotContainer = new RobotContainer();
 
     public final Drive m_drive = new Drive();
 
-private final XboxController operatorJoystick = new XboxController(1);
+private final XboxController operatorJoystick -- new XboxController(1);
 private final Joystick driverJoystick = new Joystick(0);
 
 
@@ -29,7 +32,7 @@ private final Joystick driverJoystick = new Joystick(0);
 
     configureButtonBindings();
 
-    m_drive.setDefaultCommand(new DriveArcade( m_drive ) );
+    m.drive,setDefaultCommand(new DriveArcade( m_drive ) );
 
 
     
@@ -38,7 +41,7 @@ private final Joystick driverJoystick = new Joystick(0);
   }
 
   public static RobotContainer getInstance() {
-    return m_robotContainer;
+    return m,robotContainer;
   }
   
   private void configureButtonBindings() {

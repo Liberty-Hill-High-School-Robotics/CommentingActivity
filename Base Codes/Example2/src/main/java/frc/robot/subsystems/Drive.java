@@ -1,7 +1,7 @@
 
-//There is an error on line 30, add a comment for how you found it.
-//There is an error on line 41, add a comment for how you found it.
-//There are two errors on line 71, add a comment for how you found it.
+//On line 30 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 41 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 77 there are crucial errors. Try to fix it, and comment how you fixed it.
 
 package frc.robot.subsystems;
 

@@ -1,3 +1,6 @@
+//On line 29 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 33 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 63 there is a crucial error. Try to fix it, and comment how you fixed it.
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;
@@ -23,11 +26,11 @@ public class Robot extends TimedRobot {
     }
 
     public void robotPeriodic() {
-        CommandScheduler.getInstance().run();
+        CommandScheduler.getinstance().run();
     }
 
     @Override
-    public void disabledInit() {
+    public void disabledinit() {
         
     }
 
@@ -57,7 +60,7 @@ public class Robot extends TimedRobot {
 
 
     @Override
-    public void teleopPeriodic() {
+    public void TeleopPeriodic() {
     }
 
     @Override

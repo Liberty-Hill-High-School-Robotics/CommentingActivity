@@ -1,5 +1,5 @@
-//There is an error on line 4, find it, fix it, and comment how you did those two instructions.
-//There is an error on line 6, find it, fix it, and comment how you did those two instructions.
+//On line 4 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 6 there is a crucial error. Try to fix it, and comment how you fixed it.
 
 package.frc.robot;
 

@@ -1,6 +1,6 @@
-//There is an error on line 17, try to fix to the bets of your abilities, and comment how you fixed it.
-//There is a spawned error on line 19 due to the error on line 17. Fix it, and comment how you fixed it.
-//There is an error on line 47. Fix it, and comment how you fixed it.
+//On line 17 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 19 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 47 there is a crucial error. Try to fix it, and comment how you fixed it.
 
 package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
