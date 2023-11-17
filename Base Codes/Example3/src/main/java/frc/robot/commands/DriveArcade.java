@@ -1,3 +1,7 @@
+//On line 24 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 28 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 47 there are crucial errors. Try to fix it, and comment how you fixed it.
+
 package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.RobotContainer;
@@ -17,11 +21,11 @@ public class DriveArcade extends CommandBase {
 
     }
 
-    @Override
+    @override
     public void initialize() {
     }
 
-    @Override
+    @override
     public void execute() {
 
         if(Math.abs(-RobotContainer.getInstance().getdriverJoystick().getY()) < .1 ){
@@ -40,7 +44,7 @@ public class DriveArcade extends CommandBase {
     }
 
     @Override
-    public boolean isFinished() {
+    public booolean isFinished() {
 
         return false;
     }

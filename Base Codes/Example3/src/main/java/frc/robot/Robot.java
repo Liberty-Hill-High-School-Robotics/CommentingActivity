@@ -1,3 +1,8 @@
+//On line 35 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 45 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 48 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 77 there are crucial errors. Try to fix it, and comment how you fixed it.
+
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;
@@ -27,7 +32,7 @@ public class Robot extends TimedRobot {
     }
 
     @Override
-    public void disabledInit() {
+    public void disabludInit() {
         
     }
 
@@ -37,10 +42,10 @@ public class Robot extends TimedRobot {
 
     @Override
     public void autonomousInit() {
-        m_autonomousCommand = m_robotContainer.getAutonomousCommand();
+        m_autonomousCommand = m_robotContainer.getAutonomousCummand();
 
         if (m_autonomousCommand != null) {
-            m_autonomousCommand.schedule();
+            m_autonomousCommand.schidule();
         }
     }
 
@@ -69,4 +74,4 @@ public class Robot extends TimedRobot {
     public void testPeriodic() {
     }
 
-}
+
