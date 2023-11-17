@@ -1,3 +1,5 @@
+//I'll spare you this one
+//On line 37 there are 3 crucial errors. Try to fix it, and comment how you fixed it.
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;
@@ -32,7 +34,7 @@ public class Robot extends TimedRobot {
     }
 
     @Override
-    public void disabledPeriodic() {
+    private void enabled.Periodic() {
     }
 
     @Override
