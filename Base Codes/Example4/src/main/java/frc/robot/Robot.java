@@ -1,5 +1,5 @@
-//I'll spare you this one
-//On line 37 there are 3 crucial errors. Try to fix it, and comment how you fixed it.
+//On line 37 there are 3 crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//This file is a bit easier....
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;

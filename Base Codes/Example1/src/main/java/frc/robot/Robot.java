@@ -1,6 +1,6 @@
-//On line 29 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 33 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 63 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 29 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 33 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 63 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
 package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;

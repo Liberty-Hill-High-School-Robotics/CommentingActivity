@@ -1,10 +1,10 @@
-//On line 12 there are crucial errors. Try to fix it, and comment how you fixed it.
-//On line 14 there are 2 crucial errors. Try to fix it, and comment how you fixed it.
-//On line 22 there is 1 crucial error. Try to fix it, and comment how you fixed it.
-//On line 25 there are 2 crucial errors. Try to fix it, and comment how you fixed it.
-//On line 46 there are 2 crucial errors. Try to fix it, and comment how you fixed it.
-//On line 60 there are crucial errors. Try to fix it, and comment how you fixed it.
-//On line 65 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 12 there are crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 14 there are 2 crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 22 there is 1 crucial error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 25 there are 2 crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 46 there are 2 crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 60 there are crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 65 there are crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
 
 
 package frc.robot;

@@ -1,6 +1,6 @@
-//On line 24 there are crucial errors. Try to fix it, and comment how you fixed it.
-//On line 28 there are crucial errors. Try to fix it, and comment how you fixed it.
-//On line 47 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 24 there are errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 28 there are errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 47 there are errors. Try to fix it, and comment what was wrong and the process you took to fix it.
 
 package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;

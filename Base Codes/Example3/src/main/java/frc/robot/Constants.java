@@ -1,4 +1,4 @@
-//On line 3 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 3 there are errors. Try to fix it, and comment what was wrong and the process you took to fix it.
 
 linepackage frc.robot;
 

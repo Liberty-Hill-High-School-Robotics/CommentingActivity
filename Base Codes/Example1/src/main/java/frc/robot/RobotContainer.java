@@ -1,6 +1,6 @@
-//On line 21 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 35 there are crucial errors. Try to fix it, and comment how you fixed it.
-//On line 44 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 21 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 35 there are errors. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 44 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
 package frc.robot;
 
 import frc.robot.commands.*;

@@ -1,6 +1,6 @@
-//On line 3 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 14 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 16 there is a crucial error. Try to fix it, and comment how you fixed it.
+//On line 3 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 14 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 16 there is an error. Try to fix it, and comment what was wrong and the process you took to fix it.
 package frc.robot;
 
 import edu.wpi.first.wpilibj.RobotBase;

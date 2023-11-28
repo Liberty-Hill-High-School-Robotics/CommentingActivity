@@ -1,5 +1,5 @@
-//On line 30 there is a crucial error. Try to fix it, and comment how you fixed it.
-//On line 100 there are crucial errors. Try to fix it, and comment how you fixed it.
+//On line 30 there is a crucial error. Try to fix it, and comment what was wrong and the process you took to fix it.
+//On line 100 there are crucial errors. Try to fix it, and comment what was wrong and the process you took to fix it.
 
 package frc.robot.subsystems;
 
