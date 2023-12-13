@@ -21,12 +21,13 @@ public class Robot extends TimedRobot {
     @Override
     public void robotInit() {
         m_robotContainer = RobotContainer.getInstance();
+        //?
         HALreport(tResourceType.kResourceType_Framework, tInstances.kFramework_RobotBuilder);
         
     }
 
     public void robotPeriodic() {
-        CommandScheduler.getInstance()run();
+        CommandScheduler.getInstance();
     }
 
     @Override

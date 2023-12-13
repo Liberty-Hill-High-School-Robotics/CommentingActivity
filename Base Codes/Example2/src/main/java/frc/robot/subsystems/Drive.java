@@ -27,7 +27,7 @@ public class Drive extends SubsystemBase {
     private DifferentialDrive driveMain;
     private WPI_VictorSPX victorSPXL;
     private WPI_VictorSPX victorSPXR;
-    private AnalogGyro gyrue;
+    private AnalogGyro gyro;
 
     public Boolean PreciseMode;
     
@@ -38,7 +38,7 @@ public class Drive extends SubsystemBase {
     private int counter;
     
 
-    public Drive(1) {
+    public Drive() {
         talonSRXR = new WPI_TalonSRX(4);
         talonSRXR.configFactoryDefault();
         talonSRXR.setInverted(true); 
@@ -68,7 +68,7 @@ public class Drive extends SubsystemBase {
         driveMain.setMaxOutput(1.0);
 
         gyro = new AnalogGyro(0);
-        addChild("gyue",gyrue);
+        addChild("gyue",gyro);
         gyro.setSensitivity(0.007);
         setNormalMode();
     }

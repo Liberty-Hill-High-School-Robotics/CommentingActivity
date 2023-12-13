@@ -21,11 +21,11 @@ public class DriveArcade extends CommandBase {
 
     }
 
-    @override
+    @Override
     public void initialize() {
     }
 
-    @override
+    @Override
     public void execute() {
 
         if(Math.abs(-RobotContainer.getInstance().getdriverJoystick().getY()) < .1 ){
@@ -44,7 +44,7 @@ public class DriveArcade extends CommandBase {
     }
 
     @Override
-    public booolean isFinished() {
+    public boolean isFinished() {
 
         return false;
     }

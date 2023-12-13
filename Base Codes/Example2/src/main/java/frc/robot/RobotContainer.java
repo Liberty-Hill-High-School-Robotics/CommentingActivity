@@ -22,7 +22,7 @@ private final Joystick driverJoystick = new Joystick(0);
 
 
 
-  SendableChooser<Command> m_chooser = new SendableChooser<>(1);
+  SendableChooser<Command> m_chooser = new SendableChooser<>();
 
 
   private RobotContainer() {
@@ -31,7 +31,7 @@ private final Joystick driverJoystick = new Joystick(0);
 
     configureButtonBindings();
 
-    m_drive.setDefaultCommand(new DriveArcade(  ) );
+    m_drive.setDefaultCommand(new DriveArcade(7,3) );
 
 
     
@@ -39,7 +39,7 @@ private final Joystick driverJoystick = new Joystick(0);
         SmartDashboard.putData("Auto Mode", m_chooser);
   }
 
-  public static RobotContainer getinstance() {
+  public static RobotContainer getInstance() {
     return m_robotcontainer;
   }
   
